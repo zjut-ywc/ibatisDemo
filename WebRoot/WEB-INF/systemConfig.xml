@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config-server>
+	
+	<item name="ACTIONPGNAMECONFIG">
+		<property name="mainaction" 	desc="主action包" 		value="com.zjutywc.action" />
+
+	</item>
+	
+</config-server>
+

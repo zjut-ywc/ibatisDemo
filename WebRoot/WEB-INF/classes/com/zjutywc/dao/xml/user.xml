@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="user">
+	<select id="select" resultClass="java.util.HashMap"
+		parameterClass="java.util.HashMap">
+		<![CDATA[select * from user WHERE id=#id#     ]]>
+	  
+	</select>
+	
+	<insert id="insert" parameterClass="java.util.HashMap">
+		<![CDATA[insert into user (id,userName,userAge,userAddress)
+					values(#id#,#userName#,#userAge#,#userAddress#)
+		]]>
+	</insert>
+	
+	<update id="update" parameterClass="java.util.HashMap">
+		<![CDATA[update user set userAge=#userAge# where id=#id#]]>
+
+	</update>
+	
+	<delete id="delete" parameterClass="java.util.HashMap">
+		<![CDATA[delete from user where id=#id#]]>
+
+	</delete>
+</sqlMap>

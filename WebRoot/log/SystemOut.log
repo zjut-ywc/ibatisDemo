@@ -1,0 +1,26 @@
+[INFO ]     2017-09-13     15:51:24       method:   com.zjutywc.common.InitFun.initXmlConfigFun(InitFun.java:56)
+初始化systemConfig配置文件数据成功
+[INFO ]     2017-09-13     15:51:58       method:   com.zjutywc.struts.RequestProcessor.processActionCreate(RequestProcessor.java:126)
+请求的class类为：com.zjutywc.actioncom.zjutywc.action.TestAction
+[INFO ]     2017-09-13     15:51:58       method:   com.zjutywc.struts.RequestProcessor.processActionCreate(RequestProcessor.java:141)
+请求到的instance实例类为：com.zjutywc.action.TestAction@165eb8d
+[DEBUG]     2017-09-13     15:51:58       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{conn-100000} Connection
+[DEBUG]     2017-09-13     15:51:58       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{conn-100000} Preparing Statement:    select * from user WHERE id=?           
+[DEBUG]     2017-09-13     15:52:00       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{pstm-100001} Executing Statement:    select * from user WHERE id=?           
+[DEBUG]     2017-09-13     15:52:00       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{pstm-100001} Parameters: [1]
+[DEBUG]     2017-09-13     15:52:00       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{pstm-100001} Types: [java.lang.String]
+[DEBUG]     2017-09-13     16:00:54       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{conn-100003} Connection
+[DEBUG]     2017-09-13     16:00:54       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{conn-100003} Preparing Statement:    select * from user WHERE id=?           
+[DEBUG]     2017-09-13     16:00:54       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{pstm-100004} Executing Statement:    select * from user WHERE id=?           
+[DEBUG]     2017-09-13     16:00:54       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{pstm-100004} Parameters: [1]
+[DEBUG]     2017-09-13     16:00:54       method:   com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+{pstm-100004} Types: [java.lang.String]
